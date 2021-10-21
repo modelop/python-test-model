@@ -9,6 +9,8 @@ print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
 
+# Testing that this syncs to Moc
+
 #modelop.init
 def begin():
     global coefs
