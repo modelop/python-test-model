@@ -9,7 +9,7 @@ print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
 
-# Testing that this syncs to Moc
+# Removed line and then added a line while using Unix formatting.
 
 #modelop.init
 def begin():
