@@ -9,7 +9,9 @@ print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
 
-# Removed line and then added a line while using Unix formatting.
+# Removed a line and then added a line while using Unix formatting.
+
+# Added this like while using Dos formatting. Does it sync to MOC?
 
 #modelop.init
 def begin():
