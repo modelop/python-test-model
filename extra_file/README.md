@@ -1,4 +1,3 @@
 # python-test-model
 
-This is a simple model with an external file asset and no library dependencies
-(just Python core libraries) to test proper connection between ModelOp Center services.
+This is a ReadMe placed inside a folder of the repo to test proper import to MOC.
