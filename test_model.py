@@ -5,8 +5,7 @@
 import json
 import math
 
-# Removed test comments to check syncing to MOC
-# Changed to dos and checking sync
+#Making a change so that this syncs
 print("Starting program", flush=True)
 
 #modelop.init
