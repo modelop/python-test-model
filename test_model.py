@@ -7,9 +7,6 @@ import math
 
 print("Starting program", flush=True)
 
-#adding comment to test syncing
-#Added this after hopefully breaking the sync with break-git-sync repo
-
 #modelop.init
 def begin():
     global coefs
