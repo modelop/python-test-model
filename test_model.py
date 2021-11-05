@@ -7,6 +7,8 @@ import math
 
 print("Starting program", flush=True)
 
+#adding comment after removing asset ID
+
 #modelop.init
 def begin():
     global coefs
