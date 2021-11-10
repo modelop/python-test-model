@@ -7,7 +7,7 @@ import math
 
 print("Starting program", flush=True)
 
-#adding comment after removing asset ID
+#adding comment 11-9-2021 11:29pm MST
 
 #modelop.init
 def begin():
