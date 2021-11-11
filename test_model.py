@@ -7,10 +7,11 @@ import math
 
 print("Starting program", flush=True)
 
-#adding comment 11-10-2021 8:36pm MST
-#adding comment 11-10-2021 9:10pm MST
-#adding comment 11-10-2021 9:28pm MST
+#adding comment 11-10-2021 08:36pm MST
+#adding comment 11-10-2021 09:10pm MST
+#adding comment 11-10-2021 09:28pm MST
 #adding comment 11-11-2021 10:24am MST
+#adding comment 11-11-2021 02:43am MST
 
 #modelop.init
 def begin():
