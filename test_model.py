@@ -7,7 +7,7 @@ import math
 
 print("Starting program", flush=True)
 
-#adding comment 11-10-2021 1:23pm MST
+#adding comment 11-10-2021 8:36pm MST
 
 #modelop.init
 def begin():
