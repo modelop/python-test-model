@@ -11,9 +11,10 @@ print("Starting program", flush=True)
 #adding comment 11-10-2021 09:10pm MST
 #adding comment 11-10-2021 09:28pm MST
 #adding comment 11-11-2021 10:24am MST
-#adding comment 11-11-2021 02:43am MST
-#adding comment 11-11-2021 02:51am MST
-#adding comment 11-11-2021 03:06am MST
+#adding comment 11-11-2021 02:43pm MST
+#adding comment 11-11-2021 02:51pm MST
+#adding comment 11-11-2021 03:06pm MST
+#adding comment 11-11-2021 03:19pm MST
 
 #modelop.init
 def begin():
