@@ -42,3 +42,4 @@ def metrics(data):
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
 
+#test if change is visible in MOC
