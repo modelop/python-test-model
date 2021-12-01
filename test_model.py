@@ -38,4 +38,4 @@ def metrics(data):
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
     
-    ## Test if comments sync
+    ## Test if comments/changes sync to MOC -kofiQA
