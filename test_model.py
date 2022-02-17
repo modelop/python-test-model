@@ -45,4 +45,5 @@ def metrics(data):
     ## Test if comments/changes manually sync to MOC-kofiQA 
     # Test comment sync
     # Test manual sync
-    # Autosycn for 3.0-Testing Regression.
+    # LightModeAutosync for 3.0-Testing Regression.
+    # DarkModeAutosync for 3.0-Testing Regression.
