@@ -47,3 +47,4 @@ def metrics(data):
     # Test manual sync
     # LightModeAutosync for 3.0-Testing Regression.
     # DarkModeAutosync for 3.0-Testing Regression.
+    # Manual Sync
