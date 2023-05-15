@@ -4,6 +4,7 @@
 
 import json
 import math
+import sys
 
 print("Starting program", flush=True)
 
@@ -16,6 +17,7 @@ print("Starting program", flush=True)
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
+    sys.exit(1)
     print("pass", flush=True)
     pass
 
