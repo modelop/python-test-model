@@ -17,13 +17,13 @@ print("Starting program", flush=True)
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
-    sys.exit(1)
     print("pass", flush=True)
     pass
 
 #modelop.score
 def action(datum):
     prediction = compute_prediction(datum)
+    raise KeyError("Missing some made up key")
     print("Can you hear me now?", flush=True)
     yield prediction
 
