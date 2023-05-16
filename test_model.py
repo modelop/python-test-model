@@ -6,8 +6,6 @@ import json
 import math
 import sys
 
-print("Starting program", flush=True)
-
 #adding comment 11-24-2021 08:55pm MST
 #adding comment 12-07-2021 08:05pm MST
 #adding comment 12-07-2021 08:12pm MST
@@ -17,13 +15,12 @@ print("Starting program", flush=True)
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
-    print("pass", flush=True)
     pass
 
 #modelop.score
 def action(datum):
     prediction = compute_prediction(datum)
-    raise KeyError("Missing some made up key")
+    raise KeyError()
     print("Can you hear me now?", flush=True)
     yield prediction
 
