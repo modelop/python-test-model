@@ -7,10 +7,7 @@ import math
 
 print("Starting program", flush=True)
 
-#adding comment 11-24-2021 08:55pm MST
-#adding comment 12-07-2021 08:05pm MST
-#adding comment 12-07-2021 08:12pm MST
-#adding comment 12-09-2021 04:27pm MST
+# add comments below
 
 #modelop.init
 def begin():
@@ -40,12 +37,3 @@ def metrics(data):
     rmse = math.sqrt(sum(list(map(lambda x: x**2, diffs)))/len(diffs))
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
-    
-    ## Test if comments/changes sync to MOC -kofiQA
-    ## Test if comments/changes manually sync to MOC-kofiQA 
-    # Test comment sync
-    # Test manual sync
-    # LightModeAutosync for 3.0-Testing Regression.
-    # DarkModeAutosync for 3.0-Testing Regression.
-    # Manual Sync
-    # Sync TestQA
