@@ -8,7 +8,6 @@ import math
 print("Starting program", flush=True)
 
 # add comments below
-# comment 2023-11-20 14:52:30.504482
 
 #modelop.init
 def begin():
