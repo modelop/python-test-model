@@ -8,7 +8,6 @@ import math
 print("Starting program", flush=True)
 
 # add comments below
-# comment 2023-12-11 16:51:32.953959
 # comment 2023-12-11 22:18:13.997951
 # comment 2023-12-08 22:15:27.839555
 # comment 2023-12-07 22:17:50.642439
