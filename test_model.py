@@ -9,6 +9,7 @@ print("Starting program", flush=True)
 
 # add comments below
 # added other commit
+# second commit after reset
 
 #modelop.init
 def begin():
@@ -24,8 +25,8 @@ def action(datum):
     yield prediction
 
 def compute_prediction(datum):
-    x_score = coefs['x']*datum['x'] 
-    y_score = coefs['y']*datum['y'] 
+    x_score = coefs['x']*datum['x']
+    y_score = coefs['y']*datum['y']
     prediction = x_score + y_score + coefs['intercept']
     return prediction
 
