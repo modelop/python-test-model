@@ -11,6 +11,7 @@ print("Starting program", flush=True)
 # comment 2024-01-17 22:16:05.278122
 # added other commit
 # second commit after reset
+# commit after reset jp
 
 #modelop.init
 def begin():
