@@ -3,6 +3,7 @@
     "name":"input",
     "fields":[
         {"name": "x", "type": "float"},
-        {"name": "y", "type": "float"}
+        {"name": "y", "type": "float"},
+        {"name": "g", "type": "float"},
     ]
 }
