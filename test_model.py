@@ -8,23 +8,6 @@ import math
 print("Starting program", flush=True)
 
 # add comments below
-# comment 2024-01-31 22:17:07.669421
-# comment 2024-01-31 11:10:53.411505
-# comment 2024-01-30 22:16:44.006754
-# comment 2024-01-29 22:17:01.673293
-# comment 2024-01-26 22:16:53.949085
-# comment 2024-01-26 17:38:55.076905
-# comment 2024-01-25 22:15:54.542130
-# comment 2024-01-24 22:16:06.874644
-# comment 2024-01-23 19:37:54.311935
-# comment 2024-01-22 22:15:27.989588
-# comment 2024-01-19 22:13:40.399367
-# comment 2024-01-19 17:21:23.578773
-# comment 2024-01-18 21:08:34.639857
-# comment 2024-01-17 22:16:05.278122
-# added other commit
-# second commit after reset
-# commit after reset jp
 # comment
 
 #modelop.init
