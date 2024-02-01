@@ -18,6 +18,7 @@ def begin():
 def action(datum):
     prediction = compute_prediction(datum)
     print("Can you hear me now?", flush=True)
+    # after reset 1
     yield prediction
 
 def compute_prediction(datum):
