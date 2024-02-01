@@ -4,12 +4,10 @@
 
 import json
 import math
-# new line change
+
 print("Starting program", flush=True)
 
 # add comments below
-# comment 2024-02-01 15:39:34.275913
-# comment to change
 
 #modelop.init
 def begin():
