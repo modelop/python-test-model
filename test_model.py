@@ -8,7 +8,7 @@ import math
 print("Starting program", flush=True)
 
 # add comments below
-# comment
+# new comment after reset
 
 #modelop.init
 def begin():
