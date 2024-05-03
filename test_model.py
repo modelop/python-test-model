@@ -49,3 +49,4 @@ def metrics(data):
     # DarkModeAutosync for 3.0-Testing Regression.
     # Manual Sync
     # Sync TestQA
+    # Test manual sync -AG 3.3 5/3/24
