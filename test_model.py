@@ -23,6 +23,7 @@ def action(datum):
     yield prediction
 
 def compute_prediction(datum):
+    # Step 2 change
     x_score = coefs['x']*datum['x']
     y_score = coefs['y']*datum['y']
     prediction = x_score + y_score + coefs['intercept']
