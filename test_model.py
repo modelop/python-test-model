@@ -10,6 +10,7 @@ print("Starting program", flush=True)
 
 #modelop.init
 def begin():
+    # Step 4 change
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
