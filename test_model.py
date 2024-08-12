@@ -10,7 +10,7 @@ print("Starting program", flush=True)
 
 #modelop.init
 def begin():
-    # Step 4 change
+    # Step 4
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
@@ -19,7 +19,7 @@ def begin():
 #modelop.score
 def action(datum):
     prediction = compute_prediction(datum)
-    print("Can you hear me now testing?", flush=True)
+    print("Can you hear me now?", flush=True)
     # after reset 1
     yield prediction
 
