@@ -30,6 +30,7 @@ def compute_prediction(datum):
     x_score = coefs['x']*datum['x']
     y_score = coefs['y']*datum['y']
     prediction = x_score + y_score + coefs['intercept']
+    # Test 2 second update
     return prediction
 
 #modelop.metrics
