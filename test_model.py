@@ -12,6 +12,7 @@ print("Starting program", flush=True)
 def begin():
     # Step 4
     # A change in the source code
+    # Test 1 second change
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
