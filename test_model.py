@@ -6,13 +6,9 @@ import json
 import math
 
 print("Starting program", flush=True)
-# after commit 2
 
 #modelop.init
 def begin():
-    # Step 4
-    # A change in the source code
-    # Test 1 second change
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
@@ -20,24 +16,18 @@ def begin():
 
 #modelop.score
 def action(datum):
-    # Test 1, commit 2
     prediction = compute_prediction(datum)
     print("Can you hear me now?", flush=True)
-    # after reset 1
     yield prediction
 
 def compute_prediction(datum):
-    # Step 2 change
     x_score = coefs['x']*datum['x']
     y_score = coefs['y']*datum['y']
     prediction = x_score + y_score + coefs['intercept']
-    # Test 2 second update
     return prediction
 
 #modelop.metrics
 def metrics(data):
-    # Test 1: Commit 1
-    # Test 2, commit 2
     actuals = data.z.tolist()
     data = data.to_dict(orient='records')
     predictions = list(map(compute_prediction, data))
@@ -45,4 +35,3 @@ def metrics(data):
     rmse = math.sqrt(sum(list(map(lambda x: x**2, diffs)))/len(diffs))
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
-    # the end
