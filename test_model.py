@@ -9,6 +9,7 @@ print("Starting program", flush=True)
 
 #modelop.init
 def begin():
+    # Test 1, commit 2
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
