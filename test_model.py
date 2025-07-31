@@ -17,6 +17,7 @@ def begin():
 
 #modelop.score
 def action(datum):
+    # Test 2, commit 2
     prediction = compute_prediction(datum)
     print("Can you hear me now?", flush=True)
     yield prediction
